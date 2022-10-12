@@ -1,3 +1,8 @@
+.title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
 form {
   width: 400px;
   margin: auto;
@@ -30,7 +35,7 @@ textarea {
   background-color: black;
   color: white;
   padding: 6px 20px;
-  border-radius: 10px;
+  border-radius: 8px;
   margin-bottom: 50px;
   font-size: 15px;
   cursor: pointer;
