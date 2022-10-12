@@ -103,6 +103,10 @@ nav ul li img {
   border-radius: 5px 5px 0 0;
 }
 
+.card h1 {
+  display: inline;
+}
+
 .card p {
   display: inline-block;
   font-size: small;

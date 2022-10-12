@@ -17,7 +17,7 @@
       <nav>
         <ul>
           <li>
-            <a href="#"><img src="./assets/brandred.png" /></a>
+            <a href="#"><img src="./assets/img/brandred.png" /></a>
           </li>
           <li><a href="/">Back to home...</a></li>
         </ul>
@@ -38,11 +38,11 @@
           <input placeholder="example@mail.com" type="email" id="input-email" />
         </div>
         <div class="telepon">
-          <label for="input-name">Handphone: </label>
+          <label for="input-phone">Handphone: </label>
           <input
             placeholder="08777123456"
-            type="number"
-            id="input-name"
+            type="tel"
+            id="input-phone"
             required
           />
         </div>
@@ -66,9 +66,12 @@
           ></textarea>
         </div>
         <div class="submit">
-          <button class="send">Submit</button>
+          <button type="submit" class="send" onclick="ShowData()">
+            Submit
+          </button>
         </div>
       </form>
     </div>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
